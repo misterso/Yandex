@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Протокол и структура Yandex</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #1F1F1F;
+        }
+        .screenshot {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Анализ сайта Yandex</h1>
+    <h2>Протокол</h2>
+    <p>Сайт yandex.ru работает по протоколу HTTPS.</p>
+    
+    <h2>Структура страницы</h2>
+    <p>Структура страницы включает в себя следующие элементы:</p>
+    <ul>
+        <li>Заголовок</li>
+        <li>Навигационное меню</li>
+        <li>Основной контент</li>
+        <li>Футер</li>
+    </ul>
+
+    <h2>Изменения на странице</h2>
+    <div class="screenshot">
+        <h3>Скриншоты "было/стало"</h3>
+        <img src="screenshot_before.png" alt="Было" width="300">
+        <img src="screenshot_after.png" alt="Стало" width="300">
+    </div>
+
+    <h2>Прототип низкой детализации</h2>
+    <p>Прототип включает в себя основные элементы интерфейса, такие как:</p>
+    <ul>
+        <li>Поисковая строка</li>
+        <li>Кнопка поиска</li>
+        <li>Ссылки на разделы</li>
+    </ul>
+</body>
+</html>
